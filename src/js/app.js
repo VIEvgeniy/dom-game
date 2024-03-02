@@ -8,7 +8,7 @@ export default function demo(value) {
   return `Demo: ${value}`;
 }
 
-// console.log("start");
+console.log("start");
 
 const img = document.documentElement.children[1].children[0];
 
@@ -35,5 +35,5 @@ setInterval(() => {
   coordY = cellHeight * posY;
   img.style.left = coordX + "px";
   img.style.top = coordY + "px";
-  // console.log("pos: ", posX, ", ", posY);
+  console.log("pos: ", posX, ", ", posY);
 }, 1500);
