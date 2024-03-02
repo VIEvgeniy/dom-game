@@ -1,4 +1,3 @@
-# Webpack5
+# DOM-game
 
-[Руководство по настройке Webpack](https://webpack.js.org/guides/)
-[Руководство по настройке GitHub Actions](https://docs.github.com/en/actions/quickstart)
+[ссылка на Github Pages](https://vievgeniy.github.io/dom-game/)
