@@ -1,3 +1,12 @@
 body {
     color: #999;
 }
+.cell{
+    border: 1px solid brown;
+}
+.row{
+    display: flex;
+}
+.goblin-face{
+    visibility: hidden;
+}
