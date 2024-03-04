@@ -1,6 +1,6 @@
 // TODO: write code here
 
-console.log("start");
+// console.log("start");
 
 // const img = document.documentElement.children[1].children[0];
 
