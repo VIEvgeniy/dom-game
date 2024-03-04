@@ -21,7 +21,7 @@ setInterval(() => {
   let newPosY = Math.round(3 * Math.random());
   while (posX == newPosX && posY == newPosY) {
     if (posX == newPosX) newPosX = Math.round(3 * Math.random());
-    if (posY == newPosY) newPosY = Math.round(3 * Math.random());
+    else if (posY == newPosY) newPosY = Math.round(3 * Math.random());
   }
   table.children[posY].children[posX].children[0].style.visibility = "hidden";
   table.children[newPosY].children[newPosX].children[0].style.visibility = "visible";
